@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
   font-size: 16px;
   font-family: Arial, sans-serif;
-
+  background-color: #F1F1F1;
 }
 
 *,
@@ -19,3 +19,32 @@ h1, h2, h3, h4 {
 p {
   margin: 0;
 }
+
+.container-search {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.container-search input,
+.container-search button {
+  border: none;
+  background-color: #F1F1F1;
+}
+
+.container-search input {
+  display: inline-block;
+  width: 85%;
+  font-size: 80px;
+  font-weight: bold;
+  outline: none;
+}
+
+.container-search input::placeholder {
+  color: #c2c2c2;
+}
+
+.container-search button img{
+  width: 60px;
+}
+
+
