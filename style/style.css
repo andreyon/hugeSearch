@@ -20,7 +20,8 @@ p {
   margin: 0;
 }
 
-.container-search {
+.container-search,
+.container-result {
   margin: 50px auto;
   width: 80%;
 }
@@ -48,22 +49,61 @@ p {
 }
 
 .container-result ul {
-  margin: 0;
   display: inline-block;
   width: 33%;
   font-size: 0;
   list-style: none;
 }
 
-.container-result ul h3{
-  font-size: 14px;
+.container-result ul h3 {
+  margin-bottom: 20px;
+  color: #c2c2c2;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.container-result ul.people-list {
+  padding: 0;
+}
+
+.container-result ul.people-list li img {
+  border-radius: 50%;
+}
+
+.container-result li {
+  background-color: rgba(118, 117, 128, 0.05);
+  border-radius: 5px;
+  height: 70px;
+  margin: 5px 0;
 }
 
 .container-result ul li {
   display: block;
   font-size: 10px;
+  /*line-height: 70px;
+  vertical-align: middle;*/
+
+}
+
+.container-result ul a li{
+  line-height: 70px;
+  vertical-align: middle;
+  color: #c2c2c2;
+  font-size: 13px;
+  font-weight: 900;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  line-height: 70px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.container-result a:hover li{
+  color: #ec5a62;
+  background-color: rgba(118,117,128,0.1);
 }
