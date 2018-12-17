@@ -34,7 +34,7 @@ p {
 
 .container-search input {
   display: inline-block;
-  width: 85%;
+  width:90%;
   font-size: 80px;
   font-weight: bold;
   outline: none;
@@ -85,7 +85,7 @@ p {
 
 }
 
-.container-result ul a li{
+.container-result ul li a {
   line-height: 70px;
   vertical-align: middle;
   color: #c2c2c2;
@@ -94,6 +94,7 @@ p {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
 
@@ -103,7 +104,8 @@ img {
   margin: 0 10px;
 }
 
-.container-result a:hover li{
+.container-result li:hover,
+.container-result li:hover a {
   color: #ec5a62;
-  background-color: rgba(118,117,128,0.1);
+  background-color: rgba(118, 117, 128, 0.1);
 }
